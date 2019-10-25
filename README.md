@@ -1,6 +1,6 @@
 # songs_analysis
 
-In this repository you can find my work related to the analysis of songs lyrics. To date I have two works: 
+In this repository you can find my work related to the analysis of song lyrics. To date, I have two parcial works: 
 1. Identifying misogyny and violence in reggaeton music. 
   ##### Notebooks:
     a. ragaetton_corpus.ipynb: An example of how to create a corpus from a list of artists using Genius API.
@@ -10,4 +10,8 @@ In this repository you can find my work related to the analysis of songs lyrics.
     a. util.py: Utility functions used during the different stages of the analysis. Documentation in progress.
 2. Topic Modeling of lyrics.
   In progress
+  
+### Important notes:
+  1. APIs like Genius API require credential. Do not forget to obtain yours.
+  2. Most of the songs analyzed in this repo is in Spanish.
   
