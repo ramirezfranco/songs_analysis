@@ -9,9 +9,11 @@ In this repository you can find my work related to the analysis of song lyrics. 
   ##### Code:
     a. util.py: Utility functions used during the different stages of the analysis. Documentation in progress.
 2. Topic Modeling of lyrics.
-  In progress
+  ###### In progress
   
 ### Important notes:
   1. APIs like Genius API require credential. Do not forget to obtain yours.
-  2. Most of the songs analyzed in this repo is in Spanish.
+  2. Most of the songs analyzed in this repo are in Spanish.
   
+  
+https://www.linkedin.com/in/jesus-ramirez-franco/
