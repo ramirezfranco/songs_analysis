@@ -1,0 +1,81 @@
+<style>
+  caption {
+      color: rgb(47, 49, 110);
+      font-weight: bold;
+      padding-bottom: 3px;
+      text-align: center;
+      font-size: 13px;
+      line-height: 1;
+
+    }
+  tfoot {
+    font-size: .8em;
+    font-style: italic;
+    background-color: white;
+    text-align: left;
+    
+    @media (min-width: $bp-marge) {
+      font-size: .9em;
+    }
+  }
+
+  .flat-table {
+  display: block;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 115%;
+  overflow: auto;
+  width: auto;
+  }
+
+  th {
+    background-color: rgb(47, 49, 110);
+    color: white;
+    font-weight: normal;
+    padding: 20px 30px;
+    text-align: center;
+  }
+  td {
+    background-color: rgb(238, 238, 238);
+    color: rgb(111, 111, 111);
+    padding: 20px 30px;
+  }
+
+  .foot {
+    background-color: white;
+    color: rgb(111, 111, 111);
+    text-align: left;
+    height: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+  }
+</style>
+<table class="flat-table">
+  <tbody>
+    <caption>
+      Most similar words to ' {{ word }} ' in Word2Vec models
+    </caption>
+    <tfoot>
+      <tr>
+        <td class=foot><img src="li.png" style="width:15px;height:15px;"></td>
+        <td class=foot colspan="2">https://www.linkedin.com/in/jesus-ramirez-franco</td>
+      </tr>
+      <tr>
+        <td class=foot><img src="GitHub-Mark.png" style="width:11px;height:11px;"></td>
+        <td class=foot colspan="2">https://github.com/ramirezfranco/songs_analysis</td>
+      </tr>
+    </tfoot>
+    <tr>
+      {% for column in columns %}
+        <th>{{ column }}</th>
+      {% endfor %}
+    </tr>
+    {% for row in data %}
+        <tr>
+          {% for w in row %}
+            <td>{{ w }}</td>
+          {% endfor %}
+        </tr>
+      {% endfor %} 
+  </tbody>
+</table>
