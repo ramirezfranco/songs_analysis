@@ -15,3 +15,5 @@ In this repository you can find my work related to the analysis of song lyrics. 
   1. APIs like Genius API require credential. Do not forget to obtain yours.
   2. Most of the songs analyzed in this repo are in Spanish.
   
+  
+https://www.linkedin.com/in/jesus-ramirez-franco/
