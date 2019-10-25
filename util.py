@@ -22,7 +22,7 @@ from flask import render_template
 import flask
 from IPython.display import HTML, display
 # from googleapiclient.discovery import build
-# import cred_manage as cred
+import creds
 
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
@@ -35,7 +35,9 @@ in the directory where stanford CoreNLP is located:
 For more details see: https://stanfordnlp.github.io/CoreNLP/corenlp-server.html
 '''
 
-genius = lyricsgenius.Genius('sEHVEvl3xQaOL4H8bSTi0dPiTtRjPW8d3UmGAe80s80IR-I2WsXG7Qz1MReMoP6x')
+# Do not forget to get and use your own credentials
+genius = lyricsgenius.Genius(creds.access_token)
+
 
 def make_soup(myurl):
 	'''
