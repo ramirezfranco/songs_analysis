@@ -7,7 +7,7 @@ In this repository you can find my work related to the analysis of song lyrics. 
     b. similarities_w2v.ipynb: Here I present an example of a comparison of similarities of words produced by different word embeddings.
     c. regaetton_ners.ipynb: Finding Name Entities in corpora using the Standford CoreNLP toolkit
   ##### Code:
-    a. util.py: Utility functions used during the different stages of the analysis. Documentation in progress.
+    a. util.py: Utility functions used during the different stages of the analysis.
 2. Topic Modeling of lyrics.
   ###### In progress
   
